@@ -185,10 +185,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--black-color);
 }
-/* .our_ruls_text {
-} */
 
-/* Our Team */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -201,6 +198,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/* Our Team */
 .our_team_list {
   background-color: var(--white-color);
   display: flex;
