@@ -119,6 +119,9 @@ img {
 }
 
 /* Main */
+.main-bunner {
+  padding: 188px 0;
+}
 .buner {
   background: var(--black-color);
 }
@@ -146,7 +149,7 @@ img {
 .buner_h {
   padding-top: 188px;
   padding-bottom: 292px;
-  min-width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
   text-align: center;
   font-weight: 700;
@@ -242,6 +245,7 @@ img {
 /* Footer */
 .footer_main {
   background-color: var(--black-color);
+  padding: 100px 0;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -252,6 +256,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--blue-color);
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo_studio_foot {
   color: var(--footer-text-color);
