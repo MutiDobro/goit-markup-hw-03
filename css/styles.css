@@ -169,14 +169,17 @@ img {
   padding: 120px 0;
 }
 .our_ruls_list {
-  display: flex;
   background-color: var(--white-color);
   display: flex;
   gap: 24px;
   margin-top: 120px;
   margin-left: 156px;
 }
+.our_ruls_list_li {
+  width: calc((100% - 72px) / 4);
+}
 .our_ruls_h {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -188,7 +191,16 @@ img {
 
 /* Our Team */
 .visually-hidden {
-  display: none;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .our_team_list {
   background-color: var(--white-color);
