@@ -122,6 +122,9 @@ img {
 .main-bunner {
   padding: 188px 0;
 }
+.main-container {
+  padding: 188px 0;
+}
 .buner {
   background: var(--black-color);
 }
