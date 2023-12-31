@@ -209,11 +209,14 @@ img {
 }
 .our_team {
   background: var(--ourteam-back-color);
+  padding: 120px 0;
 }
 .our_team_cards {
   background-color: var(--white-color);
+  width: calc((100% - 72px) / 4);
 }
 .our_team_h {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
