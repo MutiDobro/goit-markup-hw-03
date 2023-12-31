@@ -214,6 +214,10 @@ img {
 .our_team_cards {
   background-color: var(--white-color);
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.our_worker {
+  padding: 32px 0;
 }
 .our_team_h {
   margin-bottom: 72px;
@@ -229,6 +233,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   text-align: center;
+  margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-color);
@@ -237,12 +242,13 @@ img {
   text-align: center;
 }
 /* Our Portfolio */
-/* .our_prj {
-} */
+
 .our_prj_list {
   background-color: var(--white-color);
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .our_prj_h {
   text-align: center;
@@ -251,9 +257,16 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .our_prj_cards {
   border-bottom: 1px solid #e7e9fc;
+  width: calc((100% -48px) / 3);
+}
+.our_app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .our_prj_app {
   font-size: 20px;
@@ -261,6 +274,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-color);
+  margin-bottom: 8px;
 }
 /* .our_prj_app_text {
 } */
