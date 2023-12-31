@@ -169,6 +169,7 @@ img {
   padding: 120px 0;
 }
 .our_ruls_list {
+  display: flex;
   background-color: var(--white-color);
   display: flex;
   gap: 24px;
